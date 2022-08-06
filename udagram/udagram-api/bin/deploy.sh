@@ -1,5 +1,4 @@
 npm run build
-cd www
 eb init --platform node.js-14 --region us-east-1 udagram-api
 eb create udagram-api-env
 eb use udagram-api-env
