@@ -35,7 +35,7 @@ import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
     ],
     "methods": 'GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE',
     "preflightContinue": true,
-    "origin": 'http://udagram-frontend-s3.s3-website-us-east-1.amazonaws.com',
+    "origin": '*',
   }));
 
   app.use("/api/v0/", IndexRouter);
